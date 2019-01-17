@@ -13,16 +13,9 @@ public class IndexController {
     private ProductDao productDao = new ProductDao();
 
     @RequestMapping("/")
-    public String showIndex() {
-        return "home";
-    }
-
-    @RequestMapping("/productList")
-    public String getProducts(Model model) {
-
+    public String showIndex(Model model) {
         List<Product> productList = productDao.getProductList();
-
         model.addAttribute("products", productList);
-        return "productList";
+        return "home";
     }
 }

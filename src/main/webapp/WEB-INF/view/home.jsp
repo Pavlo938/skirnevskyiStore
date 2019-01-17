@@ -95,46 +95,36 @@
 </section>
 
 <section id="services">
-    <div class="container">
+    <div class="container-fluid p-0">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">All kind of our products</h2>
+                <h2 class="section-heading">All our Products</h2>
+                <p>Check this out!</p>
                 <hr class="my-4">
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
-                    <h3 class="mb-3">Sturdy Templates</h3>
-                    <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
-                    <h3 class="mb-3">Ready to Ship</h3>
-                    <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
-                    <h3 class="mb-3">Up to Date</h3>
-                    <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box mt-5 mx-auto">
-                    <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
-                    <h3 class="mb-3">Made with Love</h3>
-                    <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    <table class="table table-striped table-hover table-bordered">
+
+        <thead>
+        <tr>
+            <th>Photo Thumb</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Condition</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <c:forEach items="${products}" var="product">
+            <tr>
+                <td><img src="#" alt="image"/> </td>
+                <td> ${product.productName}  </td>
+                <td> ${product.productCategory}  </td>
+                <td> ${product.productCondition}  </td>
+                <td> ${product.productPrice}  </td>
+            </tr>
+        </c:forEach>
+    </table>
 </section>
 
 <section class="p-0" id="portfolio">
@@ -236,8 +226,8 @@
 
 <section class="bg-dark text-white">
     <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+        <h2 class="mb-4">Any products which you fell interested in ?</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Order Now!</a>
     </div>
 </section>
 
