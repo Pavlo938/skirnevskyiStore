@@ -18,4 +18,8 @@ public class IndexController {
         model.addAttribute("products", productList);
         return "home";
     }
+    @RequestMapping("/viewProduct")
+    public String viewProduct(){
+        return "viewProduct";
+    }
 }
