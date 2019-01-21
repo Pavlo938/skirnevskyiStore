@@ -23,11 +23,11 @@
             <img src="#" alt="image" style="width: 100%; height: 300px; " />
             </div>
             <div class="col-md-5">
-                <h3>Product name:  </h3>
-                <p>Product description: </p>
-                <p>Manufacturer: </p>
-                <p>Category: </p>
-                <p>Price: </p>
+                <h3>Product name :${product.productName} </h3>
+                <p>Product description :${product.productDescription} </p>
+                <p>Manufacturer :${product.productManufacturer} </p>
+                <p>Category :${product.productCategory} </p>
+                <p>Price : <strong>${product.productPrice} USD </strong></p>
             </div>
          </div>
     </div>

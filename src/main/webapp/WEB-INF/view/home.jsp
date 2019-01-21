@@ -58,7 +58,7 @@
             <th>Category</th>
             <th>Condition</th>
             <th>Price</th>
-            <th></th>
+            <th>More</th>
         </tr>
         </thead>
         <c:forEach items="${products}" var="product">
@@ -67,9 +67,9 @@
                 <td> ${product.productName}  </td>
                 <td> ${product.productCategory}  </td>
                 <td> ${product.productCondition}  </td>
-                <td> ${product.productPrice}  </td>
+                <td> ${product.productPrice} USD </td>
                 <td>
-                    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+                    <a href="<c:url value="/viewProduct/${product.productId}"/>">About</a>
                 </td>
             </tr>
         </c:forEach>

@@ -1,6 +1,16 @@
 package com.skirnevskyi.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Product {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private String productId;
     private String productName;
     private String productCategory;
     private String productDescription;
@@ -9,6 +19,14 @@ public class Product {
     private String productStatus;
     private int unitInStock;
     private String productManufacturer;
+
+    public String getProductId() {
+        return productId;
+    }
+
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
 
     public String getProductName() {
         return productName;
