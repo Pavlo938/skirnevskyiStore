@@ -49,6 +49,7 @@
             </div>
         </div>
     </div>
+    <div class="container">
     <table class="table table-striped table-hover table-bordered">
 
         <thead>
@@ -74,6 +75,7 @@
             </tr>
         </c:forEach>
     </table>
+    </div>
 </section>
 
 <section class="p-0" id="portfolio">

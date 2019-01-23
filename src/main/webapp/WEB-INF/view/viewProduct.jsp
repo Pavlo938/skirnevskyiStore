@@ -33,5 +33,6 @@
     </div>
 
 </section>
+<%@include file="/WEB-INF/view/template/footer.jsp"%>
 
 

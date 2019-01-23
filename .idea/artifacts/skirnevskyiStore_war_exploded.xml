@@ -30,8 +30,6 @@
           <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:4.1.1.Final" />
           <element id="library" level="project" name="Maven: com.h2database:h2:1.4.193" />
-          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
-          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.0.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
@@ -40,9 +38,6 @@
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.5.RELEASE" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.6" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.6" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.6" />
           <element id="library" level="project" name="Maven: org.springframework.webflow:spring-webflow:2.4.4.RELEASE" />
           <element id="library" level="project" name="Maven: opensymphony:ognl:2.6.11" />
           <element id="library" level="project" name="Maven: org.springframework.webflow:spring-binding:2.4.4.RELEASE" />
