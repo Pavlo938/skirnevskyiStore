@@ -44,7 +44,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto nav">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
@@ -56,6 +56,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li >
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="<c:url value="/login"/>#portfolio"><p style="color:red">Login</p></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="<c:url value="/register"/>#services"><p style="color:red">Register</p></a>
                 </li>
             </ul>
         </div>

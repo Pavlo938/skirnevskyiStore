@@ -31,3 +31,11 @@ src/test/
 target/
 .idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml
 .idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_0_RELEASE.xml
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
